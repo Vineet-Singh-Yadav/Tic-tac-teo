@@ -1,0 +1,67 @@
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(199, 193, 216);
+}
+.heading{
+    position: relative;
+    text-align: center;
+    color: rgb(67, 14, 119);
+    text-shadow: 2px 2px 5px ;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3 , 2fr);
+    grid-template-rows: repeat(3 , 2fr);
+    justify-content: center;
+    text-align: center;
+    gap: 5px;
+    height: 200px;
+    width: 200px;
+    margin-bottom: 50px;
+}
+
+.gridBox{
+    border: 2px solid black;
+    box-shadow: 2px 2px 5px black;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.gridBox:hover{
+    background-color: dimgray;
+}
+
+
+
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    gap: 5rem;
+    color: rgb(41, 9, 71);
+    text-shadow: 2px 2px 5px;
+}
+
+.playerButton{
+    border: 2px solid black;
+    box-shadow: 2px 2px 5px black;
+}
+
+#button{
+    margin-top: 2rem;
+    border-color: black;
+    box-shadow: 2px 2px 5px black;
+    background-color:rgb(199, 193, 216);
+}
+.cross{
+    background-image:url(image/Multiplication-Sign-PNG-File.png) ;
+}
+
+.zero{
+    background-image:url(image/png-transparent-brand-pattern-number-text-number-download-with-transparent-background-thumbnail.png) ;
+}
